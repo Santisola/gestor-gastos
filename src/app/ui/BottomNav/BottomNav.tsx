@@ -54,7 +54,7 @@ export const BottomNav = ({ tiposDeGastos }: any) => {
           </li>
 
           <li className={path === "/perfil" ? "active" : ""}>
-            <Link href="/">
+            <Link href="/perfil">
               <UserIcon />
               Perfil
             </Link>
